@@ -1,0 +1,102 @@
+body,div,input,p,span,img{cursor: pointer;}
+html{font-size:16px;-webkit-text-size-adjust:none;
+font-family:"Helvetica Neue", Helvetica, STHeiTi, sans-serif;; }
+body{-webkit-tap-highlight-color:rgba(0,0,0,0);
+/*font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;*/}  
+*{margin:0;padding:0;}
+@media screen and (min-width:320px){
+    html{font-size:18px;}
+    footer .second p span{display: block}
+    .subResult div{width:100%;}
+    .subResult1 p{width:100%;}
+}
+@media screen and (min-width:480px){
+    html{font-size:20px;}
+    footer .second p span{display: inline}
+     .subResult div{width:100%;}
+     .subResult1 p{width:100%;}
+}
+@media screen and (min-width:768px){
+   html{font-size:22px;}
+   footer .second p span{display: inline}
+    .subResult div{width:70%;}
+    .subResult1 p{width:70%;} 
+}
+@media screen and (min-width:980px){
+  html{font-size:24px;}
+  footer .second p span{display: inline}
+   .subResult div{width:70%;} 
+   .subResult1 p{width:70%;}
+}
+@media screen and (min-width:1170px){
+  html{font-size:26px;}
+  footer .second p span{display: inline}
+  .subResult div{width:70%;} 
+  .subResult1 p{width:70%;}
+}
+.fcol{text-align:left;vertical-align:baseline;font-size:0.54rem;}
+.tcol{padding-left:0.3846rem;width:13.46rem;font-size:0.53rem;color:#666;}
+td{height:1.1538rem;}
+.telphone{color:red;font-size:larger;}
+.area{margin-left:0.3846rem;margin-right:0.1923rem;}
+.opera{margin-right:0.1923rem;}
+.shuli{color:green;}
+.paraph{color:green;}
+.tail{color:#999;}
+.p2{margin-left:1.1538rem;margin-top:0.3846rem;font-size:0.7692rem;color:#333;font-weight:bold;}
+.p3{margin-left:1.1538rem;margin-top:0.3846rem;font-size:0.5769rem;color:#999;margin-bottom:0.1923rem;}
+.p4{margin-left:1.1538rem;margin-top:0.5769rem;font-size:0.5769rem;color:#333;}
+.p5{font-size:0.7692rem;font-weight:bold;color:red;text-align:right;padding-right:30px;}
+.p7{margin-left:1.1538rem;font-size:0.5769rem;color:#666;}
+.factornum{font-size:medium;color:red;}
+.character{font-size:medium;color:#52AB72;}
+.description{font-size:medium;color:#C98419;}
+.parent{display: flex;display:-webkit-flex;justify-content:center;-webkit-justify-content:center;-ms-justify-content:center;
+	    -moz-justify-content:center;-o-justify-content:center;-webkit-align-items:center;-ms-align-items:center;-moz-align-items:center;
+	      -o-align-items:center;}
+.banner{margin-top:1.3rem;}
+.banner img{max-width:100%;}
+.subtitle{margin-top:0.67rem;}
+.subtitle p{text-align: center;font-size:13px}
+.inputArea{margin-top:0.3846rem;}
+.inputArea span{margin-right:0.3846rem;font-size:14px;}
+.inputArea input.inp{height:32px;width:8rem;border:1px solid #ddd;padding-left:0.5769rem;outline:none;}
+.inputArea .btn{margin-left:0.3846rem;height:30px;width:3.5rem;background-color:#F12020;color:#fff;border:none;
+	          outline: none;text-align: center;}
+.eight{margin-top:0.3846rem;}
+.eight .first{font-size:14px;margin-right:0.3846rem;}
+.eight .second{font-size:14px;}
+.eight lable{font-size:14px;} 
+.QRCode{margin-top:1.923rem;margin-left:-0.35rem;}
+.QRCode div{background-color:#F68787;width:7.6923rem;height:7.6923rem;}
+.tip{margin-top:1.1538rem;}
+.pc{margin-top:1rem;}
+.pc p{font-size:0.5rem;margin:0;padding:0;text-indent:3px;}
+.pc p span {color:#666;font-size:0.5rem;}
+.mobile{font-size:0.5rem;}
+.mobile p{margin:0;padding:0;}
+.mobile p .first{color:#666;font-size:0.5rem;}
+.mobile p .second{color:green;font-size:1rem;}
+.publicNum{}
+.publicNum p{margin:0;padding:0;}
+.publicNum .first{color:red;}
+.publicNum .second{color:#666;font-size:0.5rem;}
+.consult{}
+.consult p span{color:#666;font-size:0.5rem;}
+.result{width: 100%}
+.subResult{margin-top:0.9rem;font-size:0.54rem;}
+.subResult div{height:25%;background-color:#ffffbb;padding:0 5px;}
+.subResult div .p1{margin-top:0.5769rem;font-size:0.5769rem;font-size:0.54rem}
+.subResult1{margin-top:15px;}
+.subResult1 p{font-size:13px;padding:0 5px;}
+.subResult1 p span{font-size:0.65rem}
+footer .first{margin-top:2.3077rem;}
+footer .first p span{color:#666;font-size:0.5rem;}
+footer .second p span{color:#666;font-size:0.5rem;}
+footer .second p .second{font-size:14px;color:#666;}
+footer .third{margin-top:0.5rem;}
+footer .third p span{color:#666;font-size:0.5rem;}
+footer p{text-align: center;}
+.hide{display:none;}
+
+
